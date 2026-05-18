@@ -1,0 +1,5 @@
+juego Aventura {
+    escena Inicio {
+        mostrar "Hola"
+    }
+}

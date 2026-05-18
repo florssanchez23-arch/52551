@@ -1,0 +1,6 @@
+juego Misterio {
+    escena Inicio {
+        mostrar "Bienvenido al misterio.";
+        leer pista;
+    }
+}

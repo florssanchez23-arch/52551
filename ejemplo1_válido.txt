@@ -1,0 +1,11 @@
+juego Aventura {
+    escena Introduccion {
+        mostrar "Bienvenido a la aventura.";
+        leer nombre;
+    }
+    escena Final {
+        si nombre == "Juan" saltar Introduccion;
+        mostrar "Fin del juego.";
+        saltar Final;
+    }
+}
